@@ -1,0 +1,31 @@
+h1{
+	color: #CBB677;
+	text-align: center;
+}
+
+body{
+	background-color: #450084;
+
+}
+button {
+	background-color: #CBB677;
+	
+}
+
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+form{
+
+	text-align: center;
+}
+
+.error {
+	color: white;
+}
+
+div {
+	text-align: center;
+}

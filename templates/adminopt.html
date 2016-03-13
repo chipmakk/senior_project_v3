@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Admin Options </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/css/adminopt.css" rel="stylesheet" media="screen">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+        <body>
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="pull-left">
+                        <ul class="nav navbar-nav">
+                            <li class="active"> <a href="/"><span class="glyphicon glyphicon-home"> </span> Home</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="mid">
+                        <ul class="nav navbar-nav">
+                             <li class="active"><a href="/adminlogin"><span class="glyphicon glyphicon-log-out"></span>Logout  </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a class="navbar-brand" href="#"> <img  src="...">   </a>
+                            </li>
+                        </ul>
+                </div>               
+            </div>
+        </nav>
+
+    <div class="container-fluid">
+        <div class="page-header">
+            <h2>Administrator Options</h2>
+            
+        </div>
+        <div class="row">
+        <div class="col-md-4">
+            <form action="/new" method ="get" enctype="multipart/form-data">
+             <button type = "submit" class="btn btn-secondary">Add New user </button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <form action='/removelinuxuser' method ="get" enctype="multipart/form-data">
+            <button type = "submit"class="btn btn-secondary">Remove User   </button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <form action="/trainprog" method ="get" enctype="multipart/form-data">
+			<button type = "submit"class="btn btn-secondary">Train recently added Data </button>
+		    </form>
+        </div>
+        </div>
+    </div>
+
+        </body>
+</html>
+
+
+
+
+
